@@ -1,0 +1,9 @@
+.footer {
+  margin-top: 2rem;
+}
+
+.footer__text {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+}

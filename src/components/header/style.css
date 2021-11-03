@@ -1,0 +1,36 @@
+.header {
+  position: relative;
+  z-index: 1000;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  padding: 1.25rem 0.75rem;
+}
+
+.header__logo-link {
+  line-height: normal;
+  font-size: 1.5em;
+}
+
+.header__navbar {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu-items {
+  list-style: none !important;
+}
+
+.header__menu-items:hover {
+  list-style: none;
+}
+
+.header__items {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}

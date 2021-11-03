@@ -1,0 +1,27 @@
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 2rem;
+  padding-left: 0;
+  margin: 0;
+}
+
+.tooltip-inner {
+  background-color: #2f4553 !important;
+  color: #fff;
+
+  text-transform: capitalize;
+
+  font-size: 1.25rem;
+  padding: 0.5rem 1rem;
+}
+
+.tooltip.show {
+  opacity: 1;
+}
+
+.tooltip .tooltip-arrow::before {
+  border-width: 0.4rem 0.4rem 0;
+  border-top-color: #2f4553;
+}
