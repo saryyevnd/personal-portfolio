@@ -1,19 +1,21 @@
 import "./style.css";
 import React from "react";
 import { Card } from "..";
+import { useHistory } from "react-router";
 
 const Default = (props) => {
   const {
     subtitle,
-    certificate_link,
+    search,
     card_color,
     title,
     logo_path,
     alt_name,
   } = props.certificate;
+  const { push } = useHistory();
 
   return (
-    <Card link={certificate_link}>
+    <Card onClick={() => push(`?modal=${search}`)}>
       <Card.Header align="center" cardColor={card_color}>
         <img
           className="certification__card-logo"

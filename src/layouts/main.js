@@ -1,15 +1,18 @@
-import React from "react";
-import { Container, Content, Footer, Header } from "../components";
+import React, { Fragment } from "react";
+import { Container, Content, Footer, Header, Modal } from "../components";
 
 const Default = (props) => {
   return (
-    <Content>
-      <Container>
-        <Header />
-        {props.children}
-        <Footer />
-      </Container>
-    </Content>
+    <Fragment>
+      <Content>
+        <Container>
+          <Header />
+          {props.children}
+          <Footer />
+        </Container>
+      </Content>
+      <Modal />
+    </Fragment>
   );
 };
 

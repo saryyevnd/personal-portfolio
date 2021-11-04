@@ -12,6 +12,8 @@ import Section from "./section";
 import CardWith3dEffect from "./cardWith3dEffect";
 import Card from "./card";
 import Languages from "./languages";
+import Modal from "./modal";
+import CertificateImage from "./certificateImage";
 
 export {
   Container,
@@ -28,4 +30,6 @@ export {
   CardWith3dEffect,
   Card,
   Languages,
+  Modal,
+  CertificateImage,
 };

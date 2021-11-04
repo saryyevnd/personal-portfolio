@@ -1,0 +1,30 @@
+#modal {
+  position: relative;
+}
+
+.modal-route {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  min-height: 100vh;
+
+  background-color: rgba(9, 17, 22, 0.75);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-route__close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+
+  font-size: 1.25rem;
+  color: #fff;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+}

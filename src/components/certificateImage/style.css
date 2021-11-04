@@ -1,0 +1,9 @@
+.certificate-image {
+  width: 100%;
+  max-width: 800px;
+  padding: 2rem;
+}
+
+.certificate-image__photo {
+  width: 100%;
+}
