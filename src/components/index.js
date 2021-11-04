@@ -6,7 +6,7 @@ import Footer from "./footer";
 import Content from "./content";
 import ProjectCard from "./projectCard";
 import CertificationCard from "./certificationCard";
-import DegreeCard from "./degreeCard";
+import EducationCard from "./educationCard";
 import ExperienceCard from "./experienceCard";
 import Section from "./section";
 import CardWith3dEffect from "./cardWith3dEffect";
@@ -22,7 +22,7 @@ export {
   Content,
   ProjectCard,
   CertificationCard,
-  DegreeCard,
+  EducationCard,
   ExperienceCard,
   Section,
   CardWith3dEffect,

@@ -16,7 +16,7 @@ const Default = () => {
     <div>
       <Section>
         <Section.Title center>
-          <Fade bottom duration={2000} distance="20px">
+          <Fade bottom duration={3000} distance="20px">
             Here's what I do
           </Fade>
         </Section.Title>
@@ -27,26 +27,29 @@ const Default = () => {
           return (
             <Section.Row key={index}>
               <Section.Col isZero={!isZero}>
-                <Fade right={!isZero} left={isZero} duration={2000}>
+                <Fade right={!isZero} left={isZero} duration={2500}>
                   <ComponentSvg theme={theme} />
                 </Fade>
               </Section.Col>
 
               <Section.Col isZero={isZero}>
-                <Fade right={isZero} left={!isZero} duration={1000}>
+                <Fade right={isZero} left={!isZero} duration={4000}>
                   <Section.ColTitle>{skill.title}</Section.ColTitle>
                 </Fade>
-                <Fade right={isZero} left={!isZero} duration={1500}>
-                  {/* <SoftwareSkill logos={skill.softwareSkills} /> */}
+                <Fade right={isZero} left={!isZero} duration={700}>
                   <Languages logos={skill.softwareSkills} />
                 </Fade>
-                <Fade right={isZero} left={!isZero} duration={2000}>
-                  {skill.skills.map((skillSentence, index) => (
-                    <Section.ColSubtext key={index}>
-                      {skillSentence}
-                    </Section.ColSubtext>
-                  ))}
-                </Fade>
+
+                {skill.skills.map((skillSentence, index) => (
+                  <Fade
+                    key={index}
+                    right={isZero}
+                    left={!isZero}
+                    duration={(index + 1) * 800}
+                  >
+                    <Section.ColSubtext>{skillSentence}</Section.ColSubtext>
+                  </Fade>
+                ))}
               </Section.Col>
             </Section.Row>
           );

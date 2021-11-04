@@ -1,5 +1,6 @@
+import "./style.css";
 import React from "react";
-import { DegreeCard, Section } from "../../components";
+import { EducationCard, Section } from "../../components";
 import { degrees } from "../../portfolio";
 import { Fade } from "react-reveal";
 
@@ -10,12 +11,15 @@ const Default = ({ theme }) => {
         <Fade bottom duration={2000} distance="20px">
           <Section.Title center>Degrees Received</Section.Title>
         </Fade>
-
-        <div>
-          {degrees.degrees.map((degree, index) => {
-            return <DegreeCard key={index} degree={degree} theme={theme} />;
-          })}
-        </div>
+        <Fade right duration={2000} distance="40px">
+          <div className="educations__box">
+            {degrees.degrees.map((degree, index) => {
+              return (
+                <EducationCard key={index} degree={degree} theme={theme} />
+              );
+            })}
+          </div>
+        </Fade>
       </Section>
     </div>
   );

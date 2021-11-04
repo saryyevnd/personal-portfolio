@@ -3,6 +3,7 @@ import styled from "styled-components";
 const CardStyled = styled.div`
   display: block;
   width: 100%;
+  height: 100%;
   transition: all 0.2s ease-in-out;
 
   border-radius: 1em;
@@ -21,6 +22,7 @@ const CardStyled = styled.div`
 const CardLinkStyled = styled.a`
   display: block;
   width: 100%;
+  height: 100%;
   transition: all 0.2s ease-in-out;
 
   border-radius: 1em;

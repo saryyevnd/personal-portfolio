@@ -37,12 +37,12 @@ const Default = () => {
             </HeaderLogoLinkStyled>
 
             <nav className="header__navbar">
-              <HeaderDropdownStyled>
+              <HeaderDropdownStyled align="end">
                 <Dropdown.Toggle variant="danger" size="lg">
                   Menu
                 </Dropdown.Toggle>
 
-                <HeaderMenuStyled align="end">
+                <HeaderMenuStyled>
                   <ul className="header__menu-items">
                     {HEADER_ITEM_DATA.map(({ to, name, hoverColor }) => (
                       <HeaderMenuItemStyled
