@@ -24,7 +24,9 @@ export class Default extends Component {
 
   static Date = (props) => <DateStyled {...props}>{props.children}</DateStyled>;
 
-  static Title = (props) => <TitleStyled>{props.children}</TitleStyled>;
+  static Title = (props) => (
+    <TitleStyled {...props}>{props.children}</TitleStyled>
+  );
 
   static Subtitle = (props) => (
     <SubtitleStyled {...props}>{props.children}</SubtitleStyled>

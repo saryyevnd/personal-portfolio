@@ -4,10 +4,10 @@ const skills = {
       title: "Front End Development",
       fileName: "FullStackSvg",
       skills: [
-        "⚡ Develop highly interactive User Interfaces and Backend for web applications",
+        "⚡ Develop highly interactive user interfaces and backend for web applications",
         "⚡ Building responsive website front end using ReactJS",
         "⚡ Building mobile application with React Native",
-        "⚡ Creating application backend in Node, Express ",
+        "⚡ Creating application backend in Node, Express , MongoDB",
         "⚡ Integration of third party services such as AWS / Azure",
       ],
       softwareSkills: [
@@ -34,10 +34,66 @@ const skills = {
           },
         },
         {
+          name: "Linux",
+          icon: "simple-icons:linux",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          name: "Git",
+          icon: "simple-icons:git",
+          style: {
+            color: "#E94E32",
+          },
+        },
+        {
+          name: "NPM",
+          icon: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          name: "YARN",
+          icon: "simple-icons:yarn",
+          style: {
+            color: "#2c8ebb",
+          },
+        },
+        {
+          name: "Sass",
+          icon: "simple-icons:sass",
+          style: {
+            color: "#bf4080",
+          },
+        },
+        {
+          name: "Less",
+          icon: "simple-icons:less",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
           name: "Bootstrap",
           icon: "simple-icons:bootstrap",
           style: {
             color: "#563d7c",
+          },
+        },
+        {
+          name: "Material-ui",
+          icon: "simple-icons:material-ui",
+          style: {
+            color: "#3399ff",
+          },
+        },
+        {
+          name: "jQuery",
+          icon: "simple-icons:jquery",
+          style: {
+            color: "#0865A6",
           },
         },
         {
@@ -48,38 +104,10 @@ const skills = {
           },
         },
         {
-          name: "NodeJS",
-          icon: "simple-icons:node-dot-js",
+          name: "Redux",
+          icon: "simple-icons:redux",
           style: {
-            color: "#339933",
-          },
-        },
-        {
-          name: "NPM",
-          icon: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        // {
-        //   name: "Flask",
-        //   icon: "simple-icons:flask",
-        //   style: {
-        //     color: "#000000",
-        //   },
-        // },
-        // {
-        //   name: "Django",
-        //   icon: "simple-icons:django",
-        //   style: {
-        //     color: "#0c4b33",
-        //   },
-        // },
-        {
-          name: "MongoDB",
-          icon: "simple-icons:mongodb",
-          style: {
-            color: "#439743",
+            color: "#764abc",
           },
         },
         {
@@ -89,39 +117,32 @@ const skills = {
             color: "#DE33A6",
           },
         },
-        // {
-        //   name: "Android",
-        //   icon: "simple-icons:android",
-        //   style: {
-        //     color: "#3DDC84",
-        //   },
-        // },
-        // {
-        //   name: "Java",
-        //   icon: "simple-icons:java",
-        //   style: {
-        //     color: "#f89820",
-        //   },
-        // },
-        // {
-        //   name: "Flutter",
-        //   icon: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
-        // {
-        //   name: "Dart",
-        //   icon: "simple-icons:dart",
-        //   style: {
-        //     color: "#29B0EE",
-        //   },
-        // },
         {
-          name: "Linux",
-          icon: "simple-icons:linux",
+          name: "Styled components",
+          icon: "simple-icons:styled-components",
           style: {
-            color: "#000000",
+            color: "#f1bdf4",
+          },
+        },
+        {
+          name: "NodeJS",
+          icon: "simple-icons:node-dot-js",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          name: "Express",
+          icon: "simple-icons:express",
+          style: {
+            color: "#000",
+          },
+        },
+        {
+          name: "MongoDB",
+          icon: "simple-icons:mongodb",
+          style: {
+            color: "#439743",
           },
         },
         {
@@ -129,13 +150,6 @@ const skills = {
           icon: "simple-icons:mysql",
           style: {
             color: "#4479A1",
-          },
-        },
-        {
-          name: "jQuery",
-          icon: "simple-icons:jquery",
-          style: {
-            color: "#0865A6",
           },
         },
         {
@@ -152,117 +166,8 @@ const skills = {
             color: "#e2c83c",
           },
         },
-        // {
-        //   name: "Wordpress",
-        //   icon: "simple-icons:wordpress",
-        //   style: {
-        //     color: "#207297",
-        //   },
-        // },
-        // {
-        //   name: "Apache",
-        //   icon: "simple-icons:apache",
-        //   style: {
-        //     color: "#CA1A22",
-        //   },
-        // },
-        {
-          name: "Git",
-          icon: "simple-icons:git",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        // {
-        //   name: "C",
-        //   icon: "simple-icons:c",
-        //   style: {
-        //     color: "#E94E32",
-        //   },
-        // },
-        // {
-        //   name: "C++",
-        //   icon: "simple-icons:cplusplus",
-        //   style: {
-        //     color: "#E94E32",
-        //   },
-        // },
-        // {
-        //   name: "Python",
-        //   icon: "simple-icons:python",
-        //   style: {
-        //     color: "#3776AB",
-        //   },
-        // },
       ],
     },
-    // {
-    //   title: "Cloud Infra-Architecture",
-    //   fileName: "CloudInfraSvg",
-    //   skills: [
-    //     "⚡ Experience working on multiple cloud platforms",
-    //     "⚡ Experience hosting and managing websites",
-    //     "⚡ Experience with Continuous Integration",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       name: "AWS",
-    //       icon: "simple-icons:amazonaws",
-    //       style: {
-    //         color: "#FF9900",
-    //       },
-    //     },
-    //     {
-    //       name: "Netlify",
-    //       icon: "simple-icons:netlify",
-    //       style: {
-    //         color: "#38AFBB",
-    //       },
-    //     },
-    //     {
-    //       name: "Heroku",
-    //       icon: "simple-icons:heroku",
-    //       style: {
-    //         color: "#6863A6",
-    //       },
-    //     },
-    //     {
-    //       name: "Firebase",
-    //       icon: "simple-icons:firebase",
-    //       style: {
-    //         color: "#FFCA28",
-    //       },
-    //     },
-    //     {
-    //       name: "PostgreSQL",
-    //       icon: "simple-icons:postgresql",
-    //       style: {
-    //         color: "#336791",
-    //       },
-    //     },
-    //     {
-    //       name: "MongoDB",
-    //       icon: "simple-icons:mongodb",
-    //       style: {
-    //         color: "#47A248",
-    //       },
-    //     },
-    //     // {
-    //     //   name: "Docker",
-    //     //   icon: "simple-icons:docker",
-    //     //   style: {
-    //     //     color: "#1488C6",
-    //     //   },
-    //     // },
-    //     {
-    //       name: "GitHub Actions",
-    //       icon: "simple-icons:githubactions",
-    //       style: {
-    //         color: "#5b77ef",
-    //       },
-    //     },
-    //   ],
-    // },
   ],
 };
 
