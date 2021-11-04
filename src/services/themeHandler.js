@@ -2,7 +2,7 @@ const themeHandler = (theme = "dark") => {
   const _themes = {
     dark: {
       name: "dark",
-      body: "#11232f",
+      body: "#091116",
       text: "#FFF",
       dark: "#000",
       light: "#fff",
