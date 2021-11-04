@@ -8,7 +8,9 @@ const degrees = {
       alt_name: "NTUU",
       duration: "2017-2021",
       descriptions: [
-        "⚡ I have completed various online courses for Backend, Web, Mobile App Development, etc.",
+        "⚡ Received Higher Mathematics.",
+        "⚡ Obtained general knowledge work with experimental data, Computer technology and Programming.",
+        "⚡ Completed lots of various courses for Web development, Backend, Frontend, Mobile app development.",
       ],
       website_link: "https://kpi.ua/en",
       logo_rounded: true,
@@ -20,7 +22,9 @@ const degrees = {
       alt_name: "NTUU",
       duration: "2021-2023",
       descriptions: [
-        "⚡ I have also completed various online courses for Backend, Web, Mobile App Development, etc.",
+        "⚡ Improving the efficiency of various enterprises.",
+        "⚡ Knowledge of organization management and production management.",
+        "⚡ Business ethics - the golden rule of management.",
       ],
       website_link: "http://nasoa.edu.ua/en/",
       logo_rounded: false,
