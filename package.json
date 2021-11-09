@@ -6,10 +6,8 @@
   "scripts": {
     "build": "react-scripts build",
     "deploy": "run-s build gh-pages",
-    "eject": "react-scripts eject",
     "gh-pages": "gh-pages -d build",
-    "start": "react-scripts start",
-    "test": "react-scripts test"
+    "start": "react-scripts start"
   },
   "dependencies": {
     "bootstrap": "5.1.3",
