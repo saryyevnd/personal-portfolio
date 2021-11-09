@@ -21,8 +21,7 @@ const Default = () => {
                 Basic Qualification and Certifications
               </Section.ColSubtitle>
               <Section.ColSubtext center>
-                I actively participate in hackathons and other tech-related
-                activities. Below are some of my major certifications.
+                I actively learning, practicing, add to resume
               </Section.ColSubtext>
             </Section.Col>
           </Section.Row>

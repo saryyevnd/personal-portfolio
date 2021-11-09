@@ -22,7 +22,7 @@ const degrees = {
       alt_name: "NTUU",
       duration: "2021-2023",
       descriptions: [
-        "⚡ Improving the efficiency of various enterprises.",
+        "⚡ Knowldege, improving the efficiency of various enterprises.",
         "⚡ Knowledge of organization management and production management.",
         "⚡ Business ethics - the golden rule of management.",
       ],

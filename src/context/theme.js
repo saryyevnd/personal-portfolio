@@ -5,7 +5,8 @@ import { themeHandler } from "../services";
 export const ThemeContext = createContext(null);
 
 const ThemeProvider = (props) => {
-  const defaultTheme = localStorage.getItem("theme") || "dark";
+  const defaultTheme =
+    localStorage.getItem("theme-personal-portfolio") || "dark";
   const [theme, setTheme] = useState(defaultTheme);
   const currentTheme = themeHandler(theme);
 

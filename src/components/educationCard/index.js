@@ -26,10 +26,14 @@ const Default = (props) => {
             </Flip>
           </div>
         </Card.Header>
-        <Card.Content align="right">
-          {degree.descriptions.map((sentence, index) => {
-            return <Card.ContentText key={index}>{sentence}</Card.ContentText>;
-          })}
+        <Card.Content>
+          <div>
+            {degree.descriptions.map((sentence, index) => {
+              return (
+                <Card.ContentText key={index}>{sentence}</Card.ContentText>
+              );
+            })}
+          </div>
           <Card.Button onClick={() => window.open(degree.website_link)}>
             Visit Website
           </Card.Button>
