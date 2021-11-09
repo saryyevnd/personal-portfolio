@@ -7,7 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 import { ThemeProvider } from "./context";
 
 ReactDOM.render(
-  <BrowserRouter basename="/">
+  <BrowserRouter basename="/personal-portfolio">
     <ThemeProvider>
       <App />
     </ThemeProvider>
