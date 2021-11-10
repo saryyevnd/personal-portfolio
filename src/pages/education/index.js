@@ -21,7 +21,7 @@ const Default = () => {
                 Basic Qualification and Certifications
               </Section.ColSubtitle>
               <Section.ColSubtext center>
-                I actively learning, practicing, add to resume
+                I actively learning, practicing, adding to resume new skills.
               </Section.ColSubtext>
             </Section.Col>
           </Section.Row>

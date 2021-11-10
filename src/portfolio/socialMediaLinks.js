@@ -14,6 +14,11 @@ const socialMediaLinks = [
     icon: "fab fa-instagram",
     color: "#e4405f",
   },
+  {
+    link: "https://t.me/UY_Scuty_97",
+    icon: "fab fa-telegram",
+    color: "#27a6e6",
+  },
 ];
 
 export default socialMediaLinks;

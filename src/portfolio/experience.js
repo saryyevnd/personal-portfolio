@@ -12,7 +12,7 @@ const experience = {
         {
           title: "Middle Frontend developer",
           company: "Bizdev Systems",
-          company_url: "https://technocolabs.com/",
+          company_url: "",
           logo_path: "Technocolabs.jfif",
           duration: "Sept ",
           location: "Ukraine, Kyiv",

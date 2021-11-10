@@ -1,16 +1,16 @@
 import React from "react";
 import { Section, SocialMedia } from "../../components";
-import { BlogsSvg } from "../../svg";
+// import { BlogsSvg } from "../../svg";
 import { Fade } from "react-reveal";
 import { greeting, contactPageData } from "../../portfolio";
-import { useTheme } from "../../hooks";
+// import { useTheme } from "../../hooks";
 import Me from "./me2.jpg";
 
 const ContactData = contactPageData.contactSection;
-const blogSection = contactPageData.blogSection;
+// const blogSection = contactPageData.blogSection;
 
 const Default = () => {
-  const { theme } = useTheme();
+  // const { theme } = useTheme();
   return (
     <div className="contact">
       <Fade bottom duration={1000} distance="40px">
@@ -38,7 +38,7 @@ const Default = () => {
           </Section.Row>
         </Section>
       </Fade>
-      <Fade bottom duration={1000} distance="40px">
+      {/* <Fade bottom duration={1000} distance="40px">
         <Section>
           <Section.Row>
             <Section.Col center>
@@ -55,7 +55,7 @@ const Default = () => {
             </Section.Col>
           </Section.Row>
         </Section>
-      </Fade>
+      </Fade> */}
     </div>
   );
 };

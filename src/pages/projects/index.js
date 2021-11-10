@@ -30,6 +30,12 @@ const Default = () => {
           </Section>
         </Fade>
 
+        <Section.Button
+          onClick={() => window.open("https://github.com/nurySar97")}
+        >
+          More Projects (Github)
+        </Section.Button>
+
         <div className="projects__cards">
           {projects.data.map((repo, index) => {
             return <ProjectCard key={index} repo={repo} theme={theme} />;

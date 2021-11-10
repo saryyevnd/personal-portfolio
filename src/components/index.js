@@ -14,6 +14,7 @@ import Card from "./card";
 import Languages from "./languages";
 import Modal from "./modal";
 import CertificateImage from "./certificateImage";
+import Wrapper from "./wrapper";
 
 export {
   Container,
@@ -32,4 +33,5 @@ export {
   Languages,
   Modal,
   CertificateImage,
+  Wrapper,
 };
