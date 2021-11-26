@@ -120,7 +120,7 @@ const projects = {
     {
       id: "4",
       name: "Github user search upp",
-      url: "https://github.com/nurySar97/star-wars-website",
+      url: "https://github.com/nurySar97/gh-users-search-app",
       description: "Used github api.",
       languages: [
         {

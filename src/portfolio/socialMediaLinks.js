@@ -5,14 +5,9 @@ const socialMediaLinks = [
     color: "#333",
   },
   {
-    link: "https://www.linkedin.com/in/muhammed-saryyev-6430161aa/",
+    link: "https://www.linkedin.com/in/nsaryyev",
     icon: "fab fa-linkedin-in",
     color: "#0e76a8;",
-  },
-  {
-    link: "https://www.instagram.com/energy___97/",
-    icon: "fab fa-instagram",
-    color: "#e4405f",
   },
   {
     link: "https://t.me/UY_Scuty_97",

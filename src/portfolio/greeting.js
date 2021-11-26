@@ -1,6 +1,6 @@
 //Home Page
 const greeting = {
-  title: "Hello 👋.",
+  title: "Hello!",
   title2: "Nurmuhammet",
   logo_name: "nurySar97",
   full_name: "Nurmuhammet Saryyev",

@@ -5,6 +5,11 @@ export const GlobalStyles = createGlobalStyle`
   *::after,
   *::before {
     box-sizing: border-box;
+    cursor: none !important;
+
+    &:hover {
+      cursor: none !important;
+    }
   }
 
   body {
