@@ -1,2 +1,2 @@
 # personal-portfolio
-## [Deploy link](https://nurysar97.github.io/personal-portfolio)
+## [Deploy link](https://saryyevnd.github.io/personal-portfolio)
